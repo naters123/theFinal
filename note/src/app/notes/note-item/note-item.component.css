@@ -1,0 +1,38 @@
+   .item {
+    float: left;
+    width: 100%;
+   }
+   .name {
+    float: left;
+    width: 75%;
+   }
+   .pName {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 9%;
+    padding-bottom: 8%;
+    padding-left: 3%;
+   }
+   .view {
+    float: left;
+    width: 25%;
+
+   }
+   .viewBtn {
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    padding: 10px 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: block;
+    margin-top: 20%;
+    margin-right: 35%;
+    font-size: large;
+    font-weight: bold;
+   }
+   .viewBtn:hover {
+    background-color: black;
+    color: white;
+   }

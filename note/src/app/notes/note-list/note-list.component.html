@@ -1,0 +1,11 @@
+<div class="noteControls">
+  <div class="choose">
+    <p class="pChoose">Click a note to view or edit it: </p>
+  </div>
+  <div class="new">
+    <button routerLink="new" class="newBtn">New</button>
+  </div>
+</div>
+<div class="noteList">
+  <note-note-item *ngFor="let noteEl of notes" [note]="noteEl" ></note-note-item>
+</div>

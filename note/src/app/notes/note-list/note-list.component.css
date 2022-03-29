@@ -1,0 +1,50 @@
+
+.noteControls{
+  outline: 2px solid black;
+  float: left;
+  width: 100%;
+  border-radius: 7px;
+}
+.choose {
+  float: left;
+  width: 75%;
+}
+.pChoose {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: large;
+  padding-top: 9%;
+  padding-bottom: 8%;
+  padding-left: 1.9%;
+}
+.new {
+  float: left;
+  width: 25%;
+}
+.newBtn {
+  background-color: white;
+  color: black;
+  font-family: monospace;
+  padding: 10px 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: block;
+  margin-top: 20%;
+  margin-right: 15%;
+  font-size: large;
+  font-weight: bold;
+}
+.newBtn:hover {
+  background-color: black;
+  color: white;
+}
+.noteList {
+  margin-top: 15px;
+  float: left;
+  width: 100%;
+  border: solid black 2px;
+  border-radius: 7px;
+  height: 70rem;
+  overflow-y: auto;
+}
+  

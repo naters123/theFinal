@@ -1,0 +1,13 @@
+<div class="tape"></div>
+<div class="paper">
+  <div class="info">
+    <h3 class="noteName">{{note?.name}}</h3>
+    <h4 class="noteDate">{{note?.date}}</h4>
+  </div>
+  <div class="body">
+    <p class="noteDes">{{note?.description}}</p>
+  </div>
+  <div class="options">
+    <p class="pOptions"><a routerLink="edit">Edit</a> | <a (click)="onDelete()">Delete</a></p>
+  </div>
+</div>
